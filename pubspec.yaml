@@ -1,0 +1,23 @@
+name: qsub
+description: QSub is a simple SSE communication from Flutter to Server
+homepage: https://github.com/DizoftTeam/qsub
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  eventsource: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
